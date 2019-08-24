@@ -1,106 +1,141 @@
-     h4,h5,h6 {
-        color: #ffffff;
-        font-family: Georgia, "Times New Roman", Times, serif;
-        background-color: #4aaaa5;
-        padding: 10px;
-        width: 70px;
-        height: 10px;
-        margin-left: 2px;
-        margin-top: 50px;
-     }
-     h1,h2,h3 {
-        color: #4aaaa5;
-        font-family: Georgia, "Times New Roman", Times, serif;
-        
-     }
-     aside {
-        float: center;
-        width: 50%;
-        height: 250px;
-        padding: 20px;
-        margin-left: 300px;
-        margin-top: 50px;
-        background:white;
-        border: 1px solid #dddddd;
-      }
-    
-      main {
-        float: center;
-        width: 60%;
-        height: 400px;
-        padding: 20px;
-        margin-left: 300px;
-        margin-top: 50px;
-        background: white;
-        border: 1px solid #dddddd;
-      }
+h4,h5,h6 {
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 70px;
+    height: 10px;
+    margin-left: 2px;
+    margin-top: 1px;
+ }
+ h1,h2,h3 {
+    color: #4aaaa5;
+    font-family: Georgia, "Times New Roman", Times, serif;
    
-    #bio-image {
-        float: left;
-        width: 150px;
-        height: 150px;
-    }
-    button {
-        background: #4aaaa5; 
-    }
-    #index {
-        width: 100%;
-        overflow: auto;
+ }
+ 
+ aside {
+    float: center;
+    width: 50%;
+    height: 620px;
+    padding: 30px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background:white;
+    border: 1px solid #dddddd;
+  }
+
+  main {
+    float: center;
+    width: 60%;
+    height: 400px;
+    padding: 20px;
+    margin-left: 300px;
+    margin-top: 50px;
+    background: white;
+    border: 1px solid #dddddd;
+  }
+
+#bio-image {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+button {
+    background: #4aaaa5; 
+}
+
+#index {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #dddddd;
+    height: 500px;
+  } 
+
+#contact {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #dddddd;
+    height: 500px;
+  }  
+  .images{
+      border:20px;
+      
+  }
+  
+  .desc {
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 130px;
+    height: 10px;
+}
+
+
+.header {
+    
+    text-align: center;
+    width: 5%;
+    margin-left: 300px;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 25px;
+    padding: 5px;
+    width: 120px;
+    height: 20px;
+}
+
+.header a {
+    float: bottom;
+    display: block;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;}
+
+.footer {
+        padding: 1px;
         clear: both;
-        background: #dddddd;
-        height: 450px;
-      }
-    #contact {
-        width: 100%;
-        overflow: auto;
-        clear: both;
-        background: #dddddd;
-        height: 500px;
-      }  
-     #portfolio {
-        width: 100%;
-        overflow: auto;
-        clear: both;
-        background: #dddddd;
-        height: 500px;
-      }   
-    header {
-        background-color: #f1f1f1;
-        padding: 0px;
+        background: grey;
         text-align: center;
-        width: 5%;
-        margin-left: 300px;
-        margin-top: 0px;
+        color: white;
+        width: 100%;
+        border-top: 8px solid #4aaaa5;
+      }
 
-    }
-    footer {
-            padding: 1px;
-            clear: both;
-            background: grey;
-            text-align: center;
-            color: white;
-            width: 100%;
+.footer3 {
+padding: 1px;
+clear: both;
+background: grey;
+text-align: center;
+color: white;
+width: 100%;
+margin-top: 5px;
+border-top: 8px solid #4aaaa5;
+      }
+
+.rightnav {
+background-color: #ffffff;
+width: 90%;
           }
-
-                    .rightnav {
-                      overflow: hidden;
-                      background-color: #f1f1f1;
-                      width: 100%;
-                    }
-                    
-                    
-                    .rightnav a {
-                      float: right;
-                      display: block;
-                      color: black;
-                      text-align: center;
-                      padding: 30px 20px;
-                      text-decoration: none;
-                    }
-                    
-                    
-                    .rightnav a:hover {
-                      background-color: #eee;
-                      
-                    }
-                     
+                                
+.rightnav a {
+float: right;
+display: block;
+color: black;
+text-align: center;
+padding: 1px 1px;
+text-decoration: none;
+margin-right: 50px;
+            }
+                                
+.rightnav a:hover {
+  background-color: #eee;
+                  
+             }
