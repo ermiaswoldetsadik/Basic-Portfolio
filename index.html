@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en-us">
 
 <head>
@@ -59,50 +59,790 @@
         </footer>
 </body>
 
-</html>
-<!-- <!DOCTYPE html>
+</html> -->
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel ="stylesheet" type="text/css" href="assets/css/style.css">
-   
-  
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Materialize - Compiled and minified CSS-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+        <!-- Font Awesome Icon - CSS-->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+        <!-- Custom Styles-->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Ermias Woldetsadik | Full Stack Developer</title>
+        <!-- Open Graph-->
+        <!-- jquery -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dhaval Patel | Full Stack Developer" />
+        <meta property="og:description" content="I believe with coding you can make amazing things
+      that can change millions of lives." />
+        
+        <meta property="og:site_name" content="Dhaval Patel | Full Stack Developer" />
+        <meta name="description" content="I believe with coding you can make amazing things
+      that can change millions of lives." />
+       
+        <link rel="manifest" href="./assets/img/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="./typed.js" type="text/javascript"></script>
+
+        <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                        Typed.new("#typed", {
+                                stringsElement: document.getElementById('typed-strings'),
+                                typeSpeed: 30,
+                                backDelay: 500,
+                                loop: true,
+                                contentType: 'html', // or text
+                                // defaults to null for infinite loop
+                                loopCount: null,
+                                callback: function () { foo(); },
+                                resetCallback: function () { newTyped(); }
+                        });
+
+                });
+                function newTyped() { /* A new typed object */ }
+                function foo() { console.log("Callback"); }
+        </script>
+
+
+
+
+
+
 </head>
+
 <body>
-        <div class="header"> 
-                <a href="#">ERMIAS</a> 
-             </div>
-        <div class="rightnav">
+        <!-- Navigation Menu-->
+        <nav class="hide-on-small-only">
+                <ul class="side-nav fixed section table-of-contents ">
+                        <li class="logo">
+                                <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+                                        class="brand-logo teal-text">
+                                        <!-- <h1>
+                                        Ermias Woldetsadik <span class="brown-text light">Full Stack Developer</span>
+                                        </h1> -->
+                                </a>
+                        </li>
+                        <li class="bold">
+                                <a aria-label="Navigate to the About section" href="#about"
+                                        class="waves-effect waves-dark teal-text"><i
+                                                class="mdi-social-person small"></i><span>About</span></a>
+                        </li>
+
+                        <li class="bold">
+                                <a aria-label="Navigate to the Projects section" href="#projects"
+                                        class="waves-effect waves-dark indigo-text"><i
+                                                class="mdi-av-web small"></i><span>Projects</span></a>
+                        </li>
+                        <li class="bold">
+                                <a aria-label="Navigate to the Skills section" href="#skills"
+                                        class="waves-effect waves-dark purple-text"><i
+                                                class="mdi-av-equalizer small"></i><span>Skills</span></a>
+                        </li>
+
+                        <li class="bold">
+                                <a aria-label="Navigate to the Contact section" href="#contact"
+                                        class="waves-effect waves-dark brown-text"><i
+                                                class="mdi-content-mail small"></i><span>Contact</span></a>
+                        </li>
+                        <li class="bold">
+                                <a aria-label="Open Ermias's resume in a new tab"
+                                        href="https://docs.google.com/document/d/1c4S6azkTKPDxpCSH_hUlDI1xExWC-e9xI5IZK2SgpDc/edit?usp=sharing"
+                                        target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i
+                                                class="mdi-action-description small"></i><span>Resume</span></a>
+                        </li>
+                </ul>
+        </nav>
+        <nav class="hide-on-large only trigger z-depth-1">
+                <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+                        class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <div class="name-title">
+                        <a id="name" aria-label="Navigate to the beginning of the page" href="#main"
+                                class="teal-text">Ermias Woldetsadik</a><span class="brown-text light">Full Stack
+                                Developer</span>
+                </div>
+        </nav>
+        <nav class="hide-on-large only">
+                <ul id="slide-out" class="side-nav">
+                        <li class="bold">
+                                <a aria-label="Navigate to the About section" href="#about"
+                                        class="waves-effect waves-dark teal-text"><i
+                                                class="mdi-social-person small"></i><span>About</span></a>
+                        </li>
+
+                        <li class="bold">
+                                <a aria-label="Navigate to the Projects section" href="#projects"
+                                        class="waves-effect waves-dark indigo-text"><i
+                                                class="mdi-av-web small"></i><span>Projects</span></a>
+                        </li>
+                        <li class="bold">
+                                <a aria-label="Navigate to the Skills section" href="#skills"
+                                        class="waves-effect waves-dark purple-text"><i
+                                                class="mdi-av-equalizer small"></i><span>Skills</span></a>
+                        </li>
+        </nav>
+
+        <!-- Main Content-->
+        <main>
+                <section id="intro" class="section scrollspy full-height">
+                        <div class="overlay"></div>
+                        <!-- <div class="container">
+                                <script>
+                                       
+                                        $(".container").typed({
+                                                strings: ["ጤና ይስጥልኝ", " Olá.", "¡Hola!", "Bonjour.", "Ciao.", "今日は. ", "Guten Tag.", "Merhaba.", "Hello."],
+                                        typeSpeed: 30, // typing speed
+                                        backDelay: 500, // pause before backspacing
+                                        loop: true, // loop on or off (true or false)
+                                        loopCount: false, // number of loops, false = infinite
+                                        });
+                                        return false;
+                                      
+                                </script>
+
+                                <h4 class style="color:red;font-size:30px;margin-left: 25px;">
+                                        <span class="container ">ጤና ይስጥልኝ", " Olá.", "¡Hola!", "Bonjour.", "Ciao.", "今日は. ", "Guten Tag.", "Merhaba.", "Hello. </span>
+                                        <span class="typed-cursor">|</span>
+                                </h4>
+                        </div> -->
+                        <section id="intro" class="section scrollspy full-height">
+                                <div class="overlay"></div>
+                                <div class="container">
+                                        <h1 class="h1"></h1>
+                                        <div class="type-wrap">
+                                                <div id="typed-strings">
+                                                        <p>Hello,I'm</p>
+                                                        <p>Ermias</p>
+                                                        <p>Woldetsadik</p>
+                                                        <p>A Full Stack Developer</p>
+
+                                                </div>
+                                                <span id="typed" style="white-space:pre;"></span>
+                                        </div>
+
+                                </div>
+                        </section>
+
+
+
+                </section>
+                <section id="about" class="section scrollspy">
+                                <h3 class="page-title white-text teal">---About</h3>
+                        <div class="container flow-text">
+                                
+                                <p>
+                                        Hi,I'm Ermias,I’m a driven, versatile full-stack web developer and design enthusiast with
+                                         expertise in front end UI/UX development and React.I have 8+ years of
+                                        professional
+                                        experience crafting impactful content and have honed a diverse set of
+                                        transferable
+                                        skills in Civil engineering career—including structural formwork design,
+                                        problem
+                                        solving, project management, communications, and strategic planning—that have
+                                        enriched
+                                        my recent career change to web development.
+                                </p>
+                                <p>
+                                        I’m a detail-oriented, deadline-conscious self-starter who learns quickly and
+                                        adapts
+                                        easily to changing workflows and the unique needs of several clients, ranging
+                                        from
+                                        government and investors. I have a track record of producing high quality,
+                                        accurate work
+                                        with fast turnaround times and effectively leveraging problem-solving and
+                                        interpersonal
+                                        skills to tackle challenges.
+                                </p>
+                                <p>As a web developer, I have built dynamic end-to-end web applications that utilize
+                                        HTML5,
+                                        CSS3, JavaScript, jQuery, AJAX, responsive design, JSON, RESTful APIs,
+                                        Bootstrap,
+                                        Handlebars.js, Firebase, cookies, local storage, Node.js, Express.js, React.js,
+                                        MongoDB,
+                                        MySQL, Sequelize, MVC, Heroku, and Git. I’m excited to continue cultivating my
+                                        technical
+                                        knowledge and contribute meaningfully to impact-driven, technological
+                                        advancements that
+                                        improve the human experience.</p>
+
+                                <section id="projects" class="section scrollspy">
+                                        <h3 class="page-title white-text teal">Projects</h3>
+                                        <div class="container">
+                                                <div class="row">
+                                                        <!-- Physics Game -->
+                                                        <!-- <div class="col s12 m6 l4">
+                                                <div class="card medium">
+                                                        <div class="card-image waves-effect waves-block waves-light">
+                                                                <img alt="physics game"
+                                                                        src="./assets/img/physicsgame.jpg"
+                                                                        class="activator" />
+                                                        </div>
+                                                        <div class="card-content">
+                                                                <span class="card-title activator teal-text hoverline">Psychic
+                                                                        Game<i
+                                                                                class="mdi-navigation-more-vert right"></i></span>
+                                                                <p>
+                                                                        Essentially, the app randomly picks a letter,
+                                                                        and the user has to guess which letter the app
+                                                                        chose
+                                                                </p>
+                                                        </div>
+                                                        <div class="card-reveal">
+                                                                <span class="card-title brown-text">Accomplishments<i
+                                                                                class="mdi-navigation-close right"></i></span>
+                                                                
+                 
+                                                                <ul>
+                                                                        <li><strong>HTML</strong> Frontend</li>
+                                                                        <li> <strong> CSS/BootStarp </strong>Designing
+                                                                        </li>
+                                                                        <li> <strong> JavaScript </strong> Add
+                                                                                functionality </li>
+
+                                                                </ul>
+                                                                <div class="card-action">
+                                                                        <a aria-label="Visit Phychic Game web app"
+                                                                                href="https://dhavalpatel0513.github.io/Psychic-Game.io/"
+                                                                                target="_blank" data-position="top"
+                                                                                data-tooltip="View Online"
+                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                        class="fa fa-external-link"></i></a><a
+                                                                                aria-label="Visit the GitHub repo for Phychic Game"
+                                                                                href="https://github.com/dhavalpatel0513/Psychic-Game.io"
+                                                                                target="_blank" data-position="top"
+                                                                                data-tooltip="View Source"
+                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                        class="fa fa-github"></i></a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div> -->
+                                                        <!-- Hangman Word Guess Game(80's style)-->
+                                                        <div class="col s12 m6 l4">
+                                                                <div class="card medium">
+                                                                        <div
+                                                                                class="card-image waves-effect waves-block waves-light">
+                                                                                <img alt="Hangman Word Guess Game(80's style)"
+                                                                                        src="./assets/images/Hangman (80's Style).PNG"
+                                                                                        class="activator" />
+                                                                        </div>
+                                                                        <div class="card-content">
+                                                                                <span
+                                                                                        class="card-title activator teal-text hoverline">Hangman
+                                                                                        Word Guess Game<i
+                                                                                                class="mdi-navigation-more-vert right"></i></span>
+                                                                                <p>
+                                                                                        Guess the artist name
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="card-reveal">
+                                                                                <span class="card-title brown-text">Languages Used<i
+                                                                                                class="mdi-navigation-close right"></i></span>
+                                                                                <ul>
+                                                                                        <li><strong>HTML</strong>
+                                                                                                Frontend</li>
+                                                                                        <li> <strong> CSS/BootStarp
+                                                                                                </strong>Designing
+                                                                                        </li>
+                                                                                        <li> <strong> JavaScript
+                                                                                                </strong> Add
+                                                                                                functionality </li>
+                                                                                </ul>
+                                                                                <div class="card-action">
+                                                                                        <a aria-label="Visit Hangman Word Guess Game web app"
+                                                                                                href="https://ermiaswoldetsadik.github.io/Word-Guess-Game/"
+                                                                                                target="_blank"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="View Online"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-external-link"></i></a><a
+                                                                                                aria-label="Visit the GitHub repo for Hangman Word Guess Game project"
+                                                                                                href="https://github.com/ermiaswoldetsadik/Word-Guess-Game"
+                                                                                                target="_blank"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="View Source"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-github"></i></a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <!-- Crystal Collector Game-->
+                                                        <div class="col s12 m6 l4">
+                                                                <div class="card medium">
+                                                                        <div
+                                                                                class="card-image waves-effect waves-block waves-light">
+                                                                                <img alt="Crystal Collector"
+                                                                                        src="./assets/images/Crystal.PNG"
+                                                                                        class="activator" />
+                                                                        </div>
+                                                                        <div class="card-content">
+                                                                                <span
+                                                                                        class="card-title activator teal-text hoverline">Crystal
+                                                                                        Collector<i
+                                                                                                class="mdi-navigation-more-vert right"></i></span>
+                                                                                <p>
+                                                                                        Players will try to match the initial number.
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="card-reveal">
+                                                                                <span class="card-title brown-text">Languages Used<i
+                                                                                                class="mdi-navigation-close right"></i></span>
+                                                                                <ul>
+                                                                                        <li><strong>HTML</strong>
+                                                                                                Frontend</li>
+                                                                                        <li> <strong> CSS/BootStarp
+                                                                                                </strong>Designing
+                                                                                        </li>
+                                                                                        <li> <strong> JavaScript/jQuery
+                                                                                                </strong> Add
+                                                                                                functionality </li>
+                                                                                </ul>
+                                                                                <div class="card-action">
+                                                                                        <a aria-label="Visit Crystal Collector web app"
+                                                                                                href="https://ermiaswoldetsadik.github.io/unit-4-game/"
+                                                                                                target="_blank"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="View Online"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-external-link"></i></a><a
+                                                                                                aria-label="Visit the GitHub repo for Code Crystal Collector project"
+                                                                                                href="https://github.com/ermiaswoldetsadik/unit-4-game"
+                                                                                                target="_blank"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="View Source"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-github"></i></a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <!-- Star Wars RPG Game-->
+                                                        <!-- <div class="col s12 m6 l4">
+                                                <div class="card medium">
+                                                        <div class="card-image waves-effect waves-block waves-light">
+                                                                <img alt="star wars rpg game"
+                                                                        src="./assets/img/star-wars.jpg"
+                                                                        class="activator" />
+                                                        </div>
+                                                        <div class="card-content">
+                                                                <span class="card-title activator teal-text hoverline">Star
+                                                                        Wars RPG Game<i
+                                                                                class="mdi-navigation-more-vert right"></i></span>
+                                                                <p>
+                                                                        The player will choose a character by clicking
+                                                                        on the fighter's picture.
+                                                                        The player will fight as that character for the
+                                                                        rest of the game
+                                                                </p>
+                                                        </div>
+                                                        <div class="card-reveal">
+                                                                <span class="card-title brown-text">Accomplishments<i
+                                                                                class="mdi-navigation-close right"></i></span>
+                                                                <ul>
+                                                                        <li><strong>HTML</strong> Frontend</li>
+                                                                        <li> <strong> CSS/BootStarp </strong>Designing
+                                                                        </li>
+                                                                        <li> <strong> JavaScript/jQuery </strong> Add
+                                                                                functionality </li>
+                                                                </ul>
+                                                                <div class="card-action">
+                                                                        <a aria-label="Visit Star Wars RPG Game app"
+                                                                                href="https://dhavalpatel0513.github.io/Star-Wars-RPG-Game.io/"
+                                                                                target="_blank" data-position="top"
+                                                                                data-tooltip="View Online"
+                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                        class="fa fa-external-link"></i></a><a
+                                                                                aria-label="Visit the GitHub repo for Star Wars RPG Game project"
+                                                                                href="https://github.com/dhavalpatel0513/Star-Wars-RPG-Game.io"
+                                                                                target="_blank" data-position="top"
+                                                                                data-tooltip="View Source"
+                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                        class="fa fa-github"></i></a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div> -->
+                                                        <!-- Trivial Game -->
+                                                        <div class="col s12 m6 l4">
+                                                                <div class="card medium">
+                                                                        <div
+                                                                                class="card-image waves-effect waves-block waves-light">
+                                                                                <img alt="trival game"
+                                                                                        src="./assets/images/Trivia.PNG"
+                                                                                        class="activator" />
+                                                                        </div>
+                                                                        <div class="card-content">
+                                                                                <span
+                                                                                        class="card-title activator teal-text hoverline">
+                                                                                         Trivia<i
+                                                                                                class="mdi-navigation-more-vert right"></i></span>
+                                                                                <p>
+                                                                                        Multiple question answer game.
+                                                                                
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="card-reveal">
+                                                                                <span class="card-title brown-text">Languages Used<i
+                                                                                                class="mdi-navigation-close right"></i></span>
+                                                                                <ul>
+                                                                                        <li><strong>HTML</strong>
+                                                                                                Frontend</li>
+                                                                                        <li> <strong> CSS/BootStarp
+                                                                                                </strong>Designing
+                                                                                        </li>
+                                                                                        <li> <strong> JavaScript/jQuery
+                                                                                                </strong> Add
+                                                                                                functionality </li>
+                                                                                                <li> <strong> Moment
+                                                                                                        </strong> time countdown </li>
+                                                                                </ul>
+                                                                                <div class="card-action">
+                                                                                        <a aria-label="Visit Trival Game app"
+                                                                                                href="https://ermiaswoldetsadik.github.io/TriviaGame/"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="View Online"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-external-link"></i></a><a
+                                                                                                aria-label="Visit the GitHub repo for Trivial Game project"
+                                                                                                href="https://github.com/ermiaswoldetsadik/TriviaGame"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="Source is Private"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-github"></i></a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <!-- Gif Tastic -->
+                                                        <div class="col s12 m6 l4">
+                                                                <div class="card medium">
+                                                                        <div
+                                                                                class="card-image waves-effect waves-block waves-light">
+                                                                                <img alt="giphy search"
+                                                                                        src="./assets/images/Gif.PNG"
+                                                                                        class="activator" />
+                                                                        </div>
+                                                                        <div class="card-content">
+                                                                                <span
+                                                                                        class="card-title activator teal-text hoverline">Giphy
+                                                                                        Search<i
+                                                                                                class="mdi-navigation-more-vert right"></i></span>
+                                                                                <p>
+                                                                                        Search your favorite giphy
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="card-reveal">
+                                                                                <span class="card-title brown-text">Languages Used<i
+                                                                                                class="mdi-navigation-close right"></i></span>
+                                                                                <ul>
+                                                                                        <li><strong>HTML</strong>
+                                                                                                Frontend</li>
+                                                                                        <li> <strong> CSS/BootStarp
+                                                                                                </strong>Designing
+                                                                                        </li>
+                                                                                        <li> <strong> JavaScript/jQuery
+                                                                                                </strong> Add
+                                                                                                functionality </li>
+                                                                                        <li> <strong> Giphy APi
+                                                                                                </strong> Use Giphy Api
+                                                                                                to get search result
+                                                                                        </li>
+                                                                                </ul>
+                                                                                <div class="card-action">
+                                                                                        <a aria-label="Visit Giphy Search web app"
+                                                                                                href="https://ermiaswoldetsadik.github.io/GifTastic/"
+                                                                                                target="_blank"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="View Online"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-external-link"></i></a><a
+                                                                                                aria-label="Visit Giphy Search project"
+                                                                                                href="https://github.com/ermiaswoldetsadik/GifTastic"
+                                                                                                target="_blank"
+                                                                                                data-position="top"
+                                                                                                data-tooltip="View Source"
+                                                                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                                                                        class="fa fa-github"></i></a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </section>
+                                <section id="skills" class="section scrollspy">
+                                        <h3 class="page-title white-text teal">Skills</h3>
+                                        <!-- <div class="container">
+                                <div class="card">
+                                        <div class="card-content">
+                                                <h4 class="brown-text light">HTML</h4>
+                                                <div class="row text-center">
+                                                        <div class="col s4 m2">
+                                                                <img alt="" src="./assets/img/html5.png"
+                                                                        class="responsive-img" />HTML5
+                                                        </div>
+                                                </div>
+                                        </div> -->
+                                        <!-- </div> -->
+                                        <div class="card">
+                                                <div class="card-content">
+                                                        <h4 class="brown-text light"> CLIENT-SIDE LANGUAGES</h4>
+                                                        <div class="row text-center">
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/html5.png"
+                                                                                class="responsive-img" />HTML
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/css3.png"
+                                                                                class="responsive-img" />CSS
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/bootstrap.png"
+                                                                                class="responsive-img" />SASS/LESS
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/bootstrap.png"
+                                                                                class="responsive-img" />Bootstrap
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/materialize.png"
+                                                                                class="responsive-img" />Materialize
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/react.png"
+                                                                                class="responsive-img" />React
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/javascript.png"
+                                                                                class="responsive-img" />Javascript
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/jquery.png"
+                                                                                class="responsive-img" />jQuery
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <!-- <div class="card">
+                                        <div class="card-content">
+                                                <h4 class="brown-text light">Javascript</h4>
+                                                <div class="row text-center">
+                                                        <div class="col s4 m2">
+                                                                <img alt="" src="./assets/img/react.png"
+                                                                        class="responsive-img" />React
+                                                        </div>
+                                                        <div class="col s4 m2">
+                                                                <img alt="" src="./assets/img/javascript.png"
+                                                                        class="responsive-img" />Javascript
+                                                        </div>
+                                                        <div class="col s4 m2">
+                                                                <img alt="" src="./assets/img/jquery.png"
+                                                                        class="responsive-img" />jQuery
+                                                        </div>
+                                                        <div class="col s4 m2">
+                                                                <img alt="" src="./assets/img/angular.png"
+                                                                        class="responsive-img" />Angular
+                                                        </div>
+                                                        <div class="col s4 m2">
+                                                                <img alt="" src="./assets/img/nodejs.png"
+                                                                        class="responsive-img" />Node
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div> -->
+                                        <div class="card">
+                                                <div class="card-content">
+                                                        <h4 class="brown-text light">SERVER-SIDE LANGUAGES</h4>
+                                                        <div class="row text-center">
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/postgresql.png"
+                                                                                class="responsive-img" />MySQL
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/mongodb.png"
+                                                                                class="responsive-img" />MongoDB
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/javascript.png"
+                                                                                class="responsive-img" />Javascript
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/jquery.png"
+                                                                                class="responsive-img" />jQuery
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/angular.png"
+                                                                                class="responsive-img" />Angular
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/nodejs.png"
+                                                                                class="responsive-img" />Node
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <!-- <div class="card">
+                                        <div class="card-content">
+                                                <h4 class="brown-text light">CMS</h4>
+                                                <div class="row text-center">
+                                                        <div class="col s4 m2">
+                                                                <img alt="" src="./assets/img/wordpress.png"
+                                                                        class="responsive-img" />Wordpress
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div> -->
+                                        <div class="card">
+                                                <div class="card-content">
+                                                        <h4 class="brown-text light">Other</h4>
+                                                        <div class="row text-center">
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/github.png"
+                                                                                class="responsive-img" />Github
+                                                                </div>
+                                                                <div class="col s4 m2">
+                                                                        <img alt="" src="./assets/img/heroku.png"
+                                                                                class="responsive-img" />Heroku
+                                                                </div>
+                                                                
+                                                        </div>
+                                                </div>
+                                        </div>
+                        </div>
+                </section>
                 
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="index.html">About</a>       
-        </div>
-        
-    <section id="index">      
-       <main>
-            <h1>About Me</h1>
-            <hr>
-          <img id="bio-image" src="assets/images/Ermias photo.jpg" alt="your name"> 
-          <p> My name is Ermias,My background is in civil Engineering.The main reason I'm pursuing
-         this programming class is to add a skill set that i have always
-         wanted to add and eventually have an app related to civil engineering.</p>
-         
-         <p>I trully believe this program will give me the tools necessary to jump start
-            my vision and i am determined to change the idea into fruition.</p>
-                
-         <p>I enjoy reading books,watching documenteries and i make sure i have time
-         to stargaze with my amature telescope.
-         </p>
-       </main>           
-                            
-    </section>
-        <div class="footer"><p>Copyright(c)</p></div> 
-        </footer>
-        
-</body> -->
+                <section id="contact" class="section scrollspy full-height">
+                        <h3 class="page-title white-text teal">---Contact</h3>
+                        <div class="container">
+                                <p>
+                                        <a aria-label="Email Ermias Woldetsadik"
+                                                href="mailto:ermiaswoldetsadik@gmail.com" data-position="top"
+                                                data-tooltip="Email Ermias Woldetsadik"
+                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                        class="fa fa-envelope"></i><a
+                                                        aria-label="Email Ermias Woldetsadik"
+                                                        href="mailto:ermiaswoldetsadik@gmail.com"
+                                                        class="hoverline">ermiaswoldetsadik@gmail.com</a></a>
+                                </p>
+                                <p>
+                                        <a aria-label="View Ermias Woldetsadik on GitHub"
+                                                href="http://github.com/dhavalpatel0513" target="_blank"
+                                                data-position="top" data-tooltip="View Ermias Woldetsadik on GitHub"
+                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                        class="fa fa-github"></i><a
+                                                        aria-label="Ermias Woldetsadik on Github"
+                                                        href="https://github.com/ermiaswoldetsadik"
+                                                        class="hoverline">https://github.com/ermiaswoldetsadik</a></a>
+                                </p>
+                                <p>
+                                        <a aria-label="View Ermias Woldetsadik on LinkedIn"
+                                                href="http://www.linkedin.com/in/dhavalpatel0513" target="_blank"
+                                                data-position="top" data-tooltip="View Ermias Woldetsadik on LinkedIn"
+                                                class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                                        class="fa fa-linkedin"></i><a
+                                                        aria-label="Ermias Woldetsadik on LinkedIn"
+                                                        href="http://www.linkedin.com/in/ermias-woldetsadik"
+                                                        class="hoverline">www.linkedin.com/in/ermias-woldetsadik</a></a>
+                                </p>
+                        </div>
+                </section>
+
+        </main>
+
+        <!--
+      Google Analytics
+      -------------------------------------------------
+      If you want to enable your own account, assign analyticsId to your
+      google analytics id, which should be the numbers following "UA-", e.g.
+      let analyticsId = "12345678-9"
+    -->
+        <script>
+                let analyticsId
+
+                // If analytics id has been manually defined
+                if (analyticsId) {
+                        // Initialize GA with local var
+                        initGoogleAnalytics(analyticsId)
+                } else {
+                        // Initialize GA with Netlify env var available via lamba function
+                        fetch("/assets/js/env_vars.js")
+                                .then(getEnvVar)
+                                .then(initGoogleAnalytics)
+                                .catch(handleError)
+                }
+
+                // -------------------------------------------------
+                // Helper Functions
+                // --------------------------------------------------
+
+                function handleError(error) {
+                        console.log("error", error)
+                }
+
+                function getEnvVar(response) {
+                        // If the request was successful
+                        if (response.ok) {
+                                // Return the response text
+                                return response.text()
+                        } else {
+                                // Return a rejected Promise object, triggering the .catch()
+                                return Promise.reject(response)
+                        }
+                }
+
+                // Set Up Google Analytics
+                function initGoogleAnalytics(analyticsId) {
+                        if (analyticsId) {
+                                // Inject the Google Analytics Tag Manager script into the DOM
+                                analyticsUrl =
+                                        "https://www.googletagmanager.com/gtag/js?id=UA-" + analyticsId
+                                var ref = document.getElementsByTagName("script")[0]
+                                var script = document.createElement("script")
+                                script.src = analyticsUrl
+                                ref.parentNode.insertBefore(script, ref)
+
+                                // Initialize Google Analytics
+                                window.dataLayer = window.dataLayer || []
+                                function gtag() {
+                                        dataLayer.push(arguments)
+                                }
+                                gtag("js", new Date())
+                                gtag("config", "UA-" + analyticsId)
+                        }
+                }
+        </script>
+
+        <!-- jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <!-- Materialize - Compiled and minified JavaScript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+        <script>
+                // Materialize - Initializers
+                $(document).ready(function () {
+                        $(".scrollspy").scrollSpy()
+                        // Initialize collapse button
+                        $(".button-collapse").sideNav({
+                                menuWidth: 190, // Default is 240
+                                edge: "left", // Choose the horizontal origin
+                                closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                        })
+                })
+        </script>
+</body>
 
 </html>
